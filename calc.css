@@ -1,0 +1,131 @@
+.inline
+{
+  display: inline-block;
+}
+body
+{
+  font-family: sans-serif;
+  background-color: gray;
+}
+.calc-body
+{
+  background-color: /*#e7e7e7*/#dadada;
+  text-align: center;
+  width: 260px;
+  border-radius: 6px;
+  margin-top: 60px;
+  margin-left: 100px;
+  border-top-right-radius: 200px 30px;
+  border-top-left-radius: 200px 30px;
+  border-bottom-right-radius: 200px 30px;
+  border-bottom-left-radius: 200px 30px;
+  box-shadow: 2px 1px 6px #000000 inset, 2px 6px 20px #000000;
+}
+.heading
+{
+  color: #000000;
+  line-height: 3em;
+  padding-top: 15px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+.model-text
+{
+  letter-spacing: 1px;
+  color: green;
+  margin-right: 20px;
+  font-weight: 900;
+  border-bottom: solid 1px #000000;
+}
+.display
+{
+  background-color: rgb(187,188,158);
+  border-radius: 5px;
+  line-height: 1.9em;
+  font-size: 2em;
+  width: 210px;
+  margin-left: 25px;
+  text-align: right;
+  box-shadow:1px 1px 2px #000000 inset;
+  margin-bottom: 4px;
+}
+span.display-text
+{
+  margin-right: 10px;
+}
+.calc-btn
+{
+  color: #ffffff;
+  border-radius: 4px;
+  width: 40px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-top-right-radius: 25px 5px;
+  border-top-left-radius: 25px 5px;
+  border-bottom-right-radius: 25px 5px;
+  border-bottom-left-radius: 25px 5px;
+  box-shadow: 1px 1px 2px /*#e2e2e2*/#d5d5d5 inset,1px 2px 2px /*#e2e2e2*/#000000;
+  cursor: pointer;
+  /*box-shadow:1px 1px 2px #000000;*/
+}
+
+.clear-btn
+{
+  background-color: #b30000;
+}
+.reg-btn
+{
+  background-color: #404040;
+}
+.last-col > .calc-btn
+{
+  margin-top: 16px;
+  /*margin-bottom: 15px;*/
+  /*padding-top: 5px;
+  padding-bottom: 5px;*/
+  /*background-color: red;*/
+}
+.solar
+{
+  background-color: #3e7fbd/*#0000c4*//*#4e4eff*/;
+  width: 20px;
+  height: 18px;
+  margin-left: 0px;
+  margin-right: 0px;
+  box-shadow:1px 1px 2px /*#e2e2e2*/#373741 inset;
+}
+.solar-end-left
+{
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.solar-end-right
+{
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.solar-back
+{
+  margin-top: 4px;
+  height: 19px;
+  background-color: #3e7fbd/*#0000c4*//*#000000*/;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow:1px 1px 2px /*#e2e2e2*/#373741 inset;
+}
+button
+{
+  background: transparent;
+  border: none;
+}
+button:focus
+{
+  outline-width: 0;
+}
